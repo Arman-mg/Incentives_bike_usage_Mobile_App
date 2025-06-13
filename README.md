@@ -90,25 +90,30 @@ The platform is composed of four core components:
 
 ```bash
 Incentives_bike_usage_Mobile_App/
-├── __pycache__/                          # Python cache
-├── faster_rcnn_resnet101_coco/          # Pre-trained image recognition model
-├── src/
-│   ├── app.py                            # App orchestrator
-│   ├── Bike_Detector.py                  # Mask R-CNN detection pipeline
-│   ├── GPS.py                            # GPS route tracking logic
-│   ├── GPS_AC.py                         # Enhanced GPS tracking with anti-cheating
-│   └── test.py                           # Validation and unit testing scripts
-├── test/                                 # Sample inputs or logs
-├── Dockerfile                            # Container configuration
-├── .dockerignore                         # Docker exclusions
-├── .gitattributes                        # Git metadata
-├── .DS_Store                             # MacOS cache (to be ignored)
-├── requirement.txt                       # Python dependencies
-├── README.md                             # Project documentation
-├── Presentation.pdf                      # Project presentation slides
-└── Report.pdf                     # Full academic report
-└── Web_Short_demo.mp4
-└── APP_Short_Demo.mp4
+├── 1. Demo Video/                  # Contains demo videos showcasing the system
+│   └── Web_Short_demo.mp4
+|   └── APP_Short_demo.mp4
+│
+├── 2. Presentation and Report/     # Academic documentation of the project
+│   ├── Report.pdf
+│   └── Presentation.pdf
+│
+├── COCO dataset/                   # Pre-trained image recognition data
+├── Test/                           # Testing inputs and outputs
+├── __pycache__/                    # Compiled Python bytecode
+│
+├── app.py                          # Main application entry point
+├── Bike_Detector.py                # Image recognition using Mask R-CNN
+├── GPS.py                          # Basic GPS tracking logic
+├── GPS_AC.py                       # GPS tracking with anti-cheating mechanisms
+├── test.py                         # Script for testing and debugging
+│
+├── README.md                       # Project documentation
+├── requirement.txt                 # Python dependencies
+├── Dockerfile                      # Docker configuration for containerization
+├── .dockerignore                   # Files ignored during Docker builds
+├── .gitattributes                  # Git metadata
+├── .DS_Store                       # macOS file system metadata
 ```
 
 ---
